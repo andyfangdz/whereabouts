@@ -106,10 +106,10 @@ function init() {
 
         var helix = new THREE.Object3D();
         vector = new THREE.Vector3();
-        phi = (i + 12) * 0.250 + Math.PI;
-        helix.position.x = 800 * Math.sin(phi);
-        helix.position.y = - (i * 8) + 250;
-        helix.position.z = 800 * Math.cos(phi);
+        phi = (i + 12) * 0.50 + Math.PI;
+        helix.position.x = 400 * Math.sin(phi);
+        helix.position.y = - (i * 32) + 800;
+        helix.position.z = 400 * Math.cos(phi);
         vector.x = helix.position.x * 2;
         vector.y = helix.position.y;
         vector.z = helix.position.z * 2;
