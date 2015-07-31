@@ -6,6 +6,7 @@
 #
 # Copyright Andy Fang
 # Licensed under The MIT License (MIT)
+
 import fileinput
 import sys
 import json
