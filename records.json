@@ -1,0 +1,19 @@
+{
+  "nextFreeModuleId": 5,
+  "modules": {
+    "byIdentifier": {
+      "src/main.js": 0,
+      "vendor_build/three.js": 1,
+      "node_modules/tween.js/src/Tween.js": 2,
+      "node_modules/json-loader/index.js!/home/andy/whereabouts/data/elements.json": 3,
+      "node_modules/json-loader/index.js!/home/andy/whereabouts/data/data.json": 4
+    }
+  },
+  "nextFreeChunkId": 1,
+  "chunks": {
+    "byName": {
+      "main": 0
+    },
+    "byBlocks": {}
+  }
+}
