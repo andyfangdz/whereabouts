@@ -134,7 +134,7 @@ function init() {
     renderer.domElement.style.position = 'absolute';
     document.getElementById('container').appendChild(renderer.domElement);
 
-    controls = new THREE.TrackballControls(camera, renderer.domElement);
+    controls = new THREE.OrbitControls(camera, renderer.domElement);
     controls.rotateSpeed = 0.5;
     controls.minDistance = 100;
     controls.maxDistance = 6000;
