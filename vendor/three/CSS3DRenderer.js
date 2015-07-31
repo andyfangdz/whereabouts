@@ -53,7 +53,7 @@ THREE.CSS3DRenderer = function () {
     var domElement = document.createElement( 'div' );
     domElement.style.overflow = 'hidden';
 
-    domElement.style.WebkitTransformStyle = 'preserve-3d';
+    domElement.style.webkitTransformStyle = 'preserve-3d';
     domElement.style.MozTransformStyle = 'preserve-3d';
     domElement.style.oTransformStyle = 'preserve-3d';
     domElement.style.transformStyle = 'preserve-3d';
@@ -62,7 +62,7 @@ THREE.CSS3DRenderer = function () {
 
     var cameraElement = document.createElement( 'div' );
 
-    cameraElement.style.WebkitTransformStyle = 'preserve-3d';
+    cameraElement.style.webkitTransformStyle = 'preserve-3d';
     cameraElement.style.MozTransformStyle = 'preserve-3d';
     cameraElement.style.oTransformStyle = 'preserve-3d';
     cameraElement.style.transformStyle = 'preserve-3d';
@@ -178,7 +178,7 @@ THREE.CSS3DRenderer = function () {
 
             if ( cachedStyle === undefined || cachedStyle !== style ) {
 
-                element.style.WebkitTransform = style;
+                element.style.webkitTransform = style;
                 element.style.MozTransform = style;
                 element.style.oTransform = style;
                 element.style.transform = style;
@@ -209,7 +209,7 @@ THREE.CSS3DRenderer = function () {
 
         if ( cache.camera.fov !== fov ) {
 
-            domElement.style.WebkitPerspective = fov + "px";
+            domElement.style.webkitPerspective = fov + "px";
             domElement.style.MozPerspective = fov + "px";
             domElement.style.oPerspective = fov + "px";
             domElement.style.perspective = fov + "px";
@@ -229,7 +229,7 @@ THREE.CSS3DRenderer = function () {
 
         if ( cache.camera.style !== style ) {
 
-            cameraElement.style.WebkitTransform = style;
+            cameraElement.style.webkitTransform = style;
             cameraElement.style.MozTransform = style;
             cameraElement.style.oTransform = style;
             cameraElement.style.transform = style;
