@@ -14,6 +14,10 @@ var width = window.innerWidth, height = window.innerHeight;
 
 //animate();
 
+function gQuery(key, value) {
+    console.log(key, value);
+}
+
 function init() {
 
     scene = new THREE.Scene()
@@ -42,6 +46,16 @@ function init() {
         .text(function(d) {
             return d.college;
         });
+    entry.append("div")
+        .attr("class", "leftnumber")
+        .text(function(d) {
+            return d.province;
+        });
+    entry.append("div")
+        .attr("class", "number")
+        .text(function(d) {
+            return d.city;
+        });
     entry.each(setData);
     entry.each(objectify);
 
@@ -68,9 +82,9 @@ function init() {
         var helix = new THREE.Object3D();
         vector = new THREE.Vector3();
         phi = (i + 12) * 0.250 + Math.PI;
-        helix.position.x = 1000 * Math.sin(phi);
-        helix.position.y = - (i * 8) + 500;
-        helix.position.z = 1000 * Math.cos(phi);
+        helix.position.x = 800 * Math.sin(phi);
+        helix.position.y = - (i * 8) + 250;
+        helix.position.z = 800 * Math.cos(phi);
         vector.x = helix.position.x * 2;
         vector.y = helix.position.y;
         vector.z = helix.position.z * 2;
@@ -139,5 +153,6 @@ init();
 transform('helix');
 
 window.transform = transform;
+window.gQuery = gQuery;
 render();
 animate();
