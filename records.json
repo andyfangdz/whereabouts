@@ -1,19 +1,24 @@
 {
-  "nextFreeModuleId": 12,
+  "nextFreeModuleId": 17,
   "modules": {
     "byIdentifier": {
       "src/main.js": 0,
       "vendor_build/three.js": 1,
       "node_modules/tween.js/src/Tween.js": 2,
       "node_modules/d3/d3.js": 3,
-      "src/sortbykey.js": 4,
-      "node_modules/pinyin/index.js": 5,
-      "node_modules/pinyin/src/pinyin.js": 6,
-      "node_modules/webpack/node_modules/node-libs-browser/node_modules/process/browser.js": 7,
-      "node_modules/webpack/buildin/module.js": 8,
-      "node_modules/pinyin/src/dict-zi-web.js": 9,
-      "node_modules/pinyin/src/phonetic-symbol.js": 10,
-      "node_modules/json-loader/index.js!/home/andy/whereabouts/data/data.json": 11
+      "node_modules/jquery/dist/jquery.js": 4,
+      "src/sortbykey.js": 5,
+      "node_modules/pinyin/index.js": 6,
+      "node_modules/pinyin/src/pinyin.js": 7,
+      "node_modules/webpack/node_modules/node-libs-browser/node_modules/process/browser.js": 8,
+      "node_modules/webpack/buildin/module.js": 9,
+      "node_modules/pinyin/src/dict-zi-web.js": 10,
+      "node_modules/pinyin/src/phonetic-symbol.js": 11,
+      "node_modules/json-loader/index.js!/home/andy/whereabouts/data/data.json": 12,
+      "node_modules/style-loader/index.js!/home/andy/whereabouts/node_modules/css-loader/index.js!/home/andy/whereabouts/src/main.css": 13,
+      "node_modules/css-loader/index.js!/home/andy/whereabouts/src/main.css": 14,
+      "node_modules/css-loader/lib/css-base.js": 15,
+      "node_modules/style-loader/addStyles.js": 16
     }
   },
   "nextFreeChunkId": 1,
