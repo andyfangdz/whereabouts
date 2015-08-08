@@ -109,9 +109,9 @@ function init() {
             return data[property] == value;
         }
         transform('away');
-        $('#container').hide();
         function stepTwo(entrance) {
         clearScene();
+        $('#container').css('visibility', 'hidden');
         if (property && value) {
             renderScene(students.filter(crit), entrance);
         }
@@ -119,16 +119,18 @@ function init() {
         else {
             renderScene(students, entrance);
         }
+        $('#container').css('visibility', 'visible');
         renderer = new THREE.CSS3DRenderer();
         renderer.setSize(width, height);
         renderer.domElement.style.position = 'absolute';
+
         document.getElementById('container').appendChild(renderer.domElement);
         controls = new THREE.OrbitControls(camera, renderer.domElement);
         controls.rotateSpeed = 0.5;
         controls.minDistance = 100;
         controls.maxDistance = 6000;
         controls.addEventListener('change', render);
-        $('#container').show();
+
         }
         if (property == 'initial') {
             stepTwo();
