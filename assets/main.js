@@ -304,17 +304,10 @@
 	window.render = render;
 	window.animate = animate;
 	
-	var provinces = []
-	
-	console.log(students);
-	
-	for (var stu in students) {
-	    if (provinces.indexOf(students[stu].province) == -1)
-	        provinces.push(students[stu].province);
-	}
+	var provinces = ["美国", "香港", "河北", "广东", "福建", "湖北", "黑龙江", "江苏", "浙江", "安徽", "四川", "上海", "北京"];
 	
 	console.log(provinces)
-	
+	document.title = "全部";
 	for (var pro in provinces) {
 	    p = provinces[pro];
 	    console.log(p);
@@ -323,6 +316,18 @@
 	
 	$('.province').click(function(){
 	    window.filterData("province", $(this).data('province'));
+	    document.title = $(this).data('province');
+	    if ($(this).data('province') == '') document.title = "全部";
+	})
+	
+	$('.toggle').click(function() {
+	    $('.province').each(function(e){
+	        if($(this).css('display') == 'block') {
+	            $(this).hide();
+	        } else {
+	            $(this).css('display', 'block');
+	        }
+	    })
 	})
 
 
@@ -22255,7 +22260,7 @@
 	
 	
 	// module
-	exports.push([module.id, "html, body {\n    height: 100%;\n}\n\nbody {\n    background-color: #000000;\n    margin: 0;\n    font-family: Helvetica, sans-serif;\n    overflow: hidden;\n}\n\na {\n    color: #ffffff;\n}\n\n#info {\n    position: absolute;\n    width: 100%;\n    color: #ffffff;\n    padding: 5px;\n    font-family: Monospace;\n    font-size: 13px;\n    font-weight: bold;\n    text-align: center;\n    z-index: 1;\n}\n\n#menu {\n    position: absolute;\n    bottom: 20px;\n    width: 100%;\n    text-align: center;\n}\n\n.element {\n    width: 120px;\n    height: 160px;\n    box-shadow: 0px 0px 12px rgba(0,255,255,0.5);\n    border: 1px solid rgba(127,255,255,0.25);\n    text-align: center;\n    cursor: default;\n}\n\n.element:hover {\n    box-shadow: 0px 0px 12px rgba(0,255,255,0.75);\n    border: 1px solid rgba(127,255,255,0.75);\n}\n\n.element .number {\n    position: absolute;\n    top: 10px;\n    right: 20px;\n    font-size: 12px;\n    color: rgba(127,255,255,0.75);\n}\n\n.element .leftnumber {\n    position: absolute;\n    top: 10px;\n    left: 20px;\n    font-size: 12px;\n    color: rgba(127,255,255,0.75);\n}\n\n.element .symbol {\n    position: absolute;\n    top: 60px;\n    left: 0px;\n    right: 0px;\n    font-size: 30px;\n    font-weight: bold;\n    color: rgba(255,255,255,0.75);\n    text-shadow: 0 0 10px rgba(0,255,255,0.95);\n}\n\n.element .details {\n    position: absolute;\n    bottom: 15px;\n    left: 0px;\n    right: 0px;\n    font-size: 12px;\n    color: rgba(127,255,255,0.75);\n}\n\nbutton {\n    color: rgba(127,255,255,0.75);\n    background: transparent;\n    outline: 1px solid rgba(127,255,255,0.75);\n    border: 0px;\n    padding: 5px 10px;\n    cursor: pointer;\n}\nbutton.province {\n    display: block;\n    margin-top: 5px;\n}\nbutton:hover {\n    background-color: rgba(0,255,255,0.5);\n}\nbutton:active {\n    color: #000000;\n    background-color: rgba(0,255,255,0.75);\n}\n#provinces {\n    position: absolute;\n    left: 20px;\n    bottom: 20px;\n}", ""]);
+	exports.push([module.id, "html, body {\n    height: 100%;\n}\n\nbody {\n    background-color: #000000;\n    margin: 0;\n    font-family: Helvetica, sans-serif;\n    overflow: hidden;\n}\n\na {\n    color: #ffffff;\n}\n\n#info {\n    position: absolute;\n    width: 100%;\n    color: #ffffff;\n    padding: 5px;\n    font-family: Monospace;\n    font-size: 13px;\n    font-weight: bold;\n    text-align: center;\n    z-index: 1;\n}\n\n#menu {\n    position: absolute;\n    bottom: 20px;\n    width: 100%;\n    text-align: center;\n}\n\n.element {\n    width: 120px;\n    height: 160px;\n    box-shadow: 0px 0px 12px rgba(0,255,255,0.5);\n    border: 1px solid rgba(127,255,255,0.25);\n    text-align: center;\n    cursor: default;\n}\n\n.element:hover {\n    box-shadow: 0px 0px 12px rgba(0,255,255,0.75);\n    border: 1px solid rgba(127,255,255,0.75);\n}\n\n.element .number {\n    position: absolute;\n    top: 10px;\n    right: 20px;\n    font-size: 12px;\n    color: rgba(127,255,255,0.75);\n}\n\n.element .leftnumber {\n    position: absolute;\n    top: 10px;\n    left: 20px;\n    font-size: 12px;\n    color: rgba(127,255,255,0.75);\n}\n\n.element .symbol {\n    position: absolute;\n    top: 60px;\n    left: 0px;\n    right: 0px;\n    font-size: 30px;\n    font-weight: bold;\n    color: rgba(255,255,255,0.75);\n    text-shadow: 0 0 10px rgba(0,255,255,0.95);\n}\n\n.element .details {\n    position: absolute;\n    bottom: 15px;\n    left: 0px;\n    right: 0px;\n    font-size: 12px;\n    color: rgba(127,255,255,0.75);\n}\n\nbutton {\n    color: rgba(127,255,255,0.75);\n    background: transparent;\n    outline: 1px solid rgba(127,255,255,0.75);\n    border: 0px;\n    padding: 5px 10px;\n    cursor: pointer;\n}\nbutton.province, .toggle {\n    display: block;\n    margin-top: 5px;\n}\nbutton.province {\n    display: none;\n}\nbutton:hover {\n    background-color: rgba(0,255,255,0.5);\n}\nbutton:active {\n    color: #000000;\n    background-color: rgba(0,255,255,0.75);\n}\n#provinces {\n    position: absolute;\n    left: 20px;\n    bottom: 20px;\n}", ""]);
 	
 	// exports
 

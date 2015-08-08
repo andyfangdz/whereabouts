@@ -90,9 +90,12 @@ button {
     padding: 5px 10px;
     cursor: pointer;
 }
-button.province {
+button.province, .toggle {
     display: block;
     margin-top: 5px;
+}
+button.province {
+    display: none;
 }
 button:hover {
     background-color: rgba(0,255,255,0.5);

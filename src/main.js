@@ -273,3 +273,13 @@ $('.province').click(function(){
     document.title = $(this).data('province');
     if ($(this).data('province') == '') document.title = "全部";
 })
+
+$('.toggle').click(function() {
+    $('.province').each(function(e){
+        if($(this).css('display') == 'block') {
+            $(this).hide();
+        } else {
+            $(this).css('display', 'block');
+        }
+    })
+})
