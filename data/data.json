@@ -1,362 +1,356 @@
 [
     {
-        "city": "\u5357\u4eac",
         "province": "\u6c5f\u82cf",
         "name": "\u5eb7\u745c",
+        "city": "\u5357\u4eac",
         "college": "\u4e1c\u5357\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u674e\u6c81\u6021",
+        "city": "\u4e0a\u6d77",
         "college": "\u590d\u65e6\u5927\u5b66"
     },
     {
-        "city": "\u676d\u5dde",
         "province": "\u6d59\u6c5f",
         "name": "\u97e9\u71a0\u661f",
+        "city": "\u676d\u5dde",
         "college": "\u6d59\u6c5f\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u5218\u975e\u8fdf",
+        "city": "\u4e0a\u6d77",
         "college": "\u540c\u6d4e\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u6234\u6c49\u5bb8",
+        "city": "\u5317\u4eac",
         "college": "\u4e2d\u592e\u8d22\u7ecf\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u674e\u660e\u7ff0",
+        "city": "\u5317\u4eac",
         "college": "\u4e2d\u592e\u6c11\u65cf\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u96d2\u6d1b",
+        "city": "\u4e0a\u6d77",
         "college": "\u4e0a\u6d77\u4ea4\u901a\u5927\u5b66"
     },
     {
-        "city": "\u5e7f\u5dde",
         "province": "\u5e7f\u4e1c",
         "name": "\u6885\u9038\u4e91",
+        "city": "\u5e7f\u5dde",
         "college": "\u4e2d\u5c71\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u9a6c\u65ed\u9a8b",
+        "city": "\u4e0a\u6d77",
         "college": "\u4e0a\u6d77\u4ea4\u901a\u5927\u5b66"
     },
     {
-        "city": "\u53a6\u95e8",
         "province": "\u798f\u5efa",
         "name": "\u6768\u9038\u51e1",
+        "city": "\u53a6\u95e8",
         "college": "\u53a6\u95e8\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u67f4\u6c9b\u9716",
+        "city": "\u5317\u4eac",
         "college": "\u6e05\u534e\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u5218\u96f7",
+        "city": "\u5317\u4eac",
         "college": "\u5317\u4eac\u822a\u7a7a\u822a\u5929\u5927\u5b66"
     },
     {
-        "city": "\u6b66\u6c49",
         "province": "\u6e56\u5317",
         "name": "\u9a86\u6d69\u6bc5",
+        "city": "\u6b66\u6c49",
         "college": "\u6b66\u6c49\u5927\u5b66"
     },
     {
-        "city": "\u6b66\u6c49",
         "province": "\u6e56\u5317",
         "name": "\u674e\u660a",
+        "city": "\u6b66\u6c49",
         "college": "\u6b66\u6c49\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u91d1\u5b50\u5929",
+        "city": "\u5317\u4eac",
         "college": "\u5317\u4eac\u822a\u7a7a\u822a\u5929\u5927\u5b66"
     },
     {
-        "city": "\u9999\u6e2f",
         "province": "\u9999\u6e2f",
         "name": "\u8463\u6615\u745c",
+        "city": "\u9999\u6e2f",
         "college": "\u9999\u6e2f\u5927\u5b66"
     },
     {
-        "city": "\u53a6\u95e8",
         "province": "\u798f\u5efa",
         "name": "\u5218\u821c\u5a01",
+        "city": "\u53a6\u95e8",
         "college": "\u53a6\u95e8\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u5468\u6e05\u539f",
+        "city": "\u5317\u4eac",
         "college": "\u6e05\u534e\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u9b4f\u4e50\u9896",
+        "city": "\u5317\u4eac",
         "college": "\u5317\u4eac\u90ae\u7535\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u5b59\u67cf\u626c",
+        "city": "\u5317\u4eac",
         "college": "\u5317\u4eac\u7406\u5de5\u5927\u5b66"
     },
     {
-        "city": "\u676d\u5dde",
         "province": "\u6d59\u6c5f",
         "name": "\u738b\u51a0\u6770",
+        "city": "\u676d\u5dde",
         "college": "\u6d59\u6c5f\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u6cb3\u5317",
         "name": "\u4efb\u8bd7\u96e8",
+        "city": "\u5317\u4eac",
         "college": "\u5bf9\u5916\u7ecf\u6d4e\u8d38\u6613\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u674e\u91d1\u6d0b",
+        "city": "\u4e0a\u6d77",
         "college": "\u540c\u6d4e\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u853a\u7acb\u8431",
+        "city": "\u5317\u4eac",
         "college": "\u5317\u4eac\u822a\u7a7a\u822a\u5929\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u53e4\u4e3d\u5a1c",
+        "city": "\u5317\u4eac",
         "college": "\u6e05\u534e\u5927\u5b66"
     },
     {
-        "city": "\u6b66\u6c49",
         "province": "\u6e56\u5317",
         "name": "\u5f20\u948a",
+        "city": "\u6b66\u6c49",
         "college": "\u6b66\u6c49\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u674e\u54f2\u6600",
+        "city": "\u4e0a\u6d77",
         "college": "\u590d\u65e6\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u5218\u6d69\u7136",
+        "city": "\u5317\u4eac",
         "college": "\u6e05\u534e\u5927\u5b66"
     },
     {
-        "city": "\u6210\u90fd",
         "province": "\u56db\u5ddd",
         "name": "\u9648\u5353\u6587",
+        "city": "\u6210\u90fd",
         "college": "\u56db\u5ddd\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u9648\u9896\u5a55",
+        "city": "\u5317\u4eac",
         "college": "\u5317\u4eac\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u90d1\u745c",
+        "city": "\u5317\u4eac",
         "college": "\u6e05\u534e\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u95eb\u5a77\u94b0",
+        "city": "\u4e0a\u6d77",
         "college": "\u540c\u6d4e\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u90dd\u4ea6\u96ef",
+        "city": "\u4e0a\u6d77",
         "college": "\u540c\u6d4e\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u80e1\u7118",
+        "city": "\u4e0a\u6d77",
         "college": "\u540c\u6d4e\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u9773\u5065",
+        "city": "\u4e0a\u6d77",
         "college": "\u540c\u6d4e\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u8042\u662d\u9896",
+        "city": "\u5317\u4eac",
         "college": "\u6e05\u534e\u5927\u5b66"
     },
     {
-        "city": "\u5408\u80a5",
         "province": "\u5b89\u5fbd",
         "name": "\u9093\u742e\u4e4b",
+        "city": "\u5408\u80a5",
         "college": "\u4e2d\u56fd\u79d1\u5b66\u6280\u672f\u5927\u5b66"
     },
     {
-        "city": "\u5357\u4eac",
         "province": "\u6c5f\u82cf",
         "name": "\u5b59\u6d69",
+        "city": "\u5357\u4eac",
         "college": "\u5357\u4eac\u822a\u7a7a\u822a\u5929\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u9648\u4e9a\u821f",
+        "city": "\u5317\u4eac",
         "college": "\u6e05\u534e\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u6768\u6653\u777f",
+        "city": "\u4e0a\u6d77",
         "college": "\u4e0a\u6d77\u8d22\u7ecf\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
-        "province": "\u4e0a\u6d77",
-        "name": "\u7530\u6851\u6986",
-        "college": "\u540c\u6d4e\u5927\u5b66"
-    },
-    {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u9648\u6210",
+        "city": "\u4e0a\u6d77",
         "college": "\u540c\u6d4e\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u738b\u96c5\u6e05",
+        "city": "\u4e0a\u6d77",
         "college": "\u4e0a\u6d77\u8d22\u7ecf\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u9ec4\u5b87\u79cb",
+        "city": "\u4e0a\u6d77",
         "college": "\u4e0a\u6d77\u4ea4\u901a\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u8d75\u6cfd\u5b87",
+        "city": "\u5317\u4eac",
         "college": "\u4e2d\u592e\u8d22\u7ecf\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u91d1\u6cfd\u5b87",
+        "city": "\u5317\u4eac",
         "college": "\u5317\u4eac\u4ea4\u901a\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u5218\u9704\u65f8",
+        "city": "\u5317\u4eac",
         "college": "\u5317\u4eac\u5e08\u8303\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u80e1\u7fca",
+        "city": "\u5317\u4eac",
         "college": "\u5bf9\u5916\u7ecf\u6d4e\u8d38\u6613\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u5468\u6625\u6656",
+        "city": "\u5317\u4eac",
         "college": "\u5317\u4eac\u7b2c\u4e8c\u5916\u56fd\u8bed\u5b66\u9662"
     },
     {
-        "city": "\u54c8\u5c14\u6ee8",
         "province": "\u9ed1\u9f99\u6c5f",
         "name": "\u674e\u806a",
+        "city": "\u54c8\u5c14\u6ee8",
         "college": "\u54c8\u5c14\u6ee8\u5de5\u4e1a\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u5f20\u5fd7\u8fdc",
+        "city": "\u4e0a\u6d77",
         "college": "\u534e\u4e1c\u653f\u6cd5\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u5f90\u65b0\u946b",
+        "city": "\u4e0a\u6d77",
         "college": "\u540c\u6d4e\u5927\u5b66"
     },
     {
-        "city": "\u4e0a\u6d77",
         "province": "\u4e0a\u6d77",
         "name": "\u7530\u6851\u745c",
+        "city": "\u4e0a\u6d77",
         "college": "\u540c\u6d4e\u5927\u5b66"
     },
     {
-        "city": "\u6210\u90fd",
         "province": "\u56db\u5ddd",
         "name": "\u5b5f\u83c0\u82b8",
+        "city": "\u6210\u90fd",
         "college": "\u56db\u5ddd\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u738b\u5b50\u70c8",
+        "city": "\u5317\u4eac",
         "college": "\u5317\u4eac\u822a\u7a7a\u822a\u5929\u5927\u5b66"
     },
     {
-        "city": "\u5357\u4eac",
         "province": "\u6c5f\u82cf",
         "name": "\u8bb8\u5b9c\u81fb",
+        "city": "\u5357\u4eac",
         "college": "\u5357\u4eac\u5927\u5b66"
     },
     {
-        "city": "\u5e7f\u5dde",
         "province": "\u5e7f\u4e1c",
         "name": "\u4e25\u6893\u592b",
+        "city": "\u5e7f\u5dde",
         "college": "\u534e\u5357\u7406\u5de5\u5927\u5b66"
     },
     {
-        "city": "\u5317\u4eac",
         "province": "\u5317\u4eac",
         "name": "\u6768\u677e\u6d9b",
+        "city": "\u5317\u4eac",
         "college": "\u4e2d\u56fd\u77f3\u6cb9\u5927\u5b66"
     },
     {
-        "city": "\u4e9a\u7279\u5170\u5927",
         "province": "\u7f8e\u56fd",
         "name": "\u65b9\u5fb7\u6cbb",
+        "city": "\u4e9a\u7279\u5170\u5927",
         "college": "\u4f50\u6cbb\u4e9a\u7406\u5de5\u5b66\u9662"
     },
     {
-        "city": "\u6ce2\u58eb\u987f",
         "province": "\u7f8e\u56fd",
         "name": "\u5415\u68a6\u5e06",
+        "city": "\u6ce2\u58eb\u987f",
         "college": "\u5e03\u5170\u8fea\u65af\u5927\u5b66"
     }
 ]

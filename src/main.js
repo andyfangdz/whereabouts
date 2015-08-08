@@ -258,6 +258,23 @@ animate();
 window.render = render;
 window.animate = animate;
 
+var provinces = []
+
+console.log(students);
+
+for (var stu in students) {
+    if (provinces.indexOf(students[stu].province) == -1)
+        provinces.push(students[stu].province);
+}
+
+console.log(provinces)
+
+for (var pro in provinces) {
+    p = provinces[pro];
+    console.log(p);
+    $('#provinces').prepend('<button data-province="' + p + '" class="province">' + p +'</button>');
+}
+
 $('.province').click(function(){
     window.filterData("province", $(this).data('province'));
 })
