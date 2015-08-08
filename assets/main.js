@@ -155,6 +155,7 @@
 	            return data[property] == value;
 	        }
 	        transform('away');
+	        $('#container').hide();
 	        function stepTwo(entrance) {
 	        clearScene();
 	        if (property && value) {
@@ -173,6 +174,7 @@
 	        controls.minDistance = 100;
 	        controls.maxDistance = 6000;
 	        controls.addEventListener('change', render);
+	        $('#container').show();
 	        }
 	        if (property == 'initial') {
 	            stepTwo();
