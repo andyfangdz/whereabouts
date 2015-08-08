@@ -304,6 +304,23 @@
 	window.render = render;
 	window.animate = animate;
 	
+	var provinces = []
+	
+	console.log(students);
+	
+	for (var stu in students) {
+	    if (provinces.indexOf(students[stu].province) == -1)
+	        provinces.push(students[stu].province);
+	}
+	
+	console.log(provinces)
+	
+	for (var pro in provinces) {
+	    p = provinces[pro];
+	    console.log(p);
+	    $('#provinces').prepend('<button data-province="' + p + '" class="province">' + p +'</button>');
+	}
+	
 	$('.province').click(function(){
 	    window.filterData("province", $(this).data('province'));
 	})
@@ -21848,363 +21865,357 @@
 
 	module.exports = [
 		{
-			"city": "南京",
 			"province": "江苏",
 			"name": "康瑜",
+			"city": "南京",
 			"college": "东南大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "李沁怡",
+			"city": "上海",
 			"college": "复旦大学"
 		},
 		{
-			"city": "杭州",
 			"province": "浙江",
 			"name": "韩熠星",
+			"city": "杭州",
 			"college": "浙江大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "刘非迟",
+			"city": "上海",
 			"college": "同济大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "戴汉宸",
+			"city": "北京",
 			"college": "中央财经大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "李明翰",
+			"city": "北京",
 			"college": "中央民族大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "雒洛",
+			"city": "上海",
 			"college": "上海交通大学"
 		},
 		{
-			"city": "广州",
 			"province": "广东",
 			"name": "梅逸云",
+			"city": "广州",
 			"college": "中山大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "马旭骋",
+			"city": "上海",
 			"college": "上海交通大学"
 		},
 		{
-			"city": "厦门",
 			"province": "福建",
 			"name": "杨逸凡",
+			"city": "厦门",
 			"college": "厦门大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "柴沛霖",
+			"city": "北京",
 			"college": "清华大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "刘雷",
+			"city": "北京",
 			"college": "北京航空航天大学"
 		},
 		{
-			"city": "武汉",
 			"province": "湖北",
 			"name": "骆浩毅",
+			"city": "武汉",
 			"college": "武汉大学"
 		},
 		{
-			"city": "武汉",
 			"province": "湖北",
 			"name": "李昊",
+			"city": "武汉",
 			"college": "武汉大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "金子天",
+			"city": "北京",
 			"college": "北京航空航天大学"
 		},
 		{
-			"city": "香港",
 			"province": "香港",
 			"name": "董昕瑜",
+			"city": "香港",
 			"college": "香港大学"
 		},
 		{
-			"city": "厦门",
 			"province": "福建",
 			"name": "刘舜威",
+			"city": "厦门",
 			"college": "厦门大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "周清原",
+			"city": "北京",
 			"college": "清华大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "魏乐颖",
+			"city": "北京",
 			"college": "北京邮电大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "孙柏扬",
+			"city": "北京",
 			"college": "北京理工大学"
 		},
 		{
-			"city": "杭州",
 			"province": "浙江",
 			"name": "王冠杰",
+			"city": "杭州",
 			"college": "浙江大学"
 		},
 		{
-			"city": "北京",
 			"province": "河北",
 			"name": "任诗雨",
+			"city": "北京",
 			"college": "对外经济贸易大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "李金洋",
+			"city": "上海",
 			"college": "同济大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "蔺立萱",
+			"city": "北京",
 			"college": "北京航空航天大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "古丽娜",
+			"city": "北京",
 			"college": "清华大学"
 		},
 		{
-			"city": "武汉",
 			"province": "湖北",
 			"name": "张钊",
+			"city": "武汉",
 			"college": "武汉大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "李哲昀",
+			"city": "上海",
 			"college": "复旦大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "刘浩然",
+			"city": "北京",
 			"college": "清华大学"
 		},
 		{
-			"city": "成都",
 			"province": "四川",
 			"name": "陈卓文",
+			"city": "成都",
 			"college": "四川大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "陈颖婕",
+			"city": "北京",
 			"college": "北京大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "郑瑜",
+			"city": "北京",
 			"college": "清华大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "闫婷钰",
+			"city": "上海",
 			"college": "同济大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "郝亦雯",
+			"city": "上海",
 			"college": "同济大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "胡焘",
+			"city": "上海",
 			"college": "同济大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "靳健",
+			"city": "上海",
 			"college": "同济大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "聂昭颖",
+			"city": "北京",
 			"college": "清华大学"
 		},
 		{
-			"city": "合肥",
 			"province": "安徽",
 			"name": "邓琮之",
+			"city": "合肥",
 			"college": "中国科学技术大学"
 		},
 		{
-			"city": "南京",
 			"province": "江苏",
 			"name": "孙浩",
+			"city": "南京",
 			"college": "南京航空航天大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "陈亚舟",
+			"city": "北京",
 			"college": "清华大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "杨晓睿",
+			"city": "上海",
 			"college": "上海财经大学"
 		},
 		{
-			"city": "上海",
-			"province": "上海",
-			"name": "田桑榆",
-			"college": "同济大学"
-		},
-		{
-			"city": "上海",
 			"province": "上海",
 			"name": "陈成",
+			"city": "上海",
 			"college": "同济大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "王雅清",
+			"city": "上海",
 			"college": "上海财经大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "黄宇秋",
+			"city": "上海",
 			"college": "上海交通大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "赵泽宇",
+			"city": "北京",
 			"college": "中央财经大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "金泽宇",
+			"city": "北京",
 			"college": "北京交通大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "刘霄旸",
+			"city": "北京",
 			"college": "北京师范大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "胡翊",
+			"city": "北京",
 			"college": "对外经济贸易大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "周春晖",
+			"city": "北京",
 			"college": "北京第二外国语学院"
 		},
 		{
-			"city": "哈尔滨",
 			"province": "黑龙江",
 			"name": "李聪",
+			"city": "哈尔滨",
 			"college": "哈尔滨工业大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "张志远",
+			"city": "上海",
 			"college": "华东政法大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "徐新鑫",
+			"city": "上海",
 			"college": "同济大学"
 		},
 		{
-			"city": "上海",
 			"province": "上海",
 			"name": "田桑瑜",
+			"city": "上海",
 			"college": "同济大学"
 		},
 		{
-			"city": "成都",
 			"province": "四川",
 			"name": "孟菀芸",
+			"city": "成都",
 			"college": "四川大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "王子烈",
+			"city": "北京",
 			"college": "北京航空航天大学"
 		},
 		{
-			"city": "南京",
 			"province": "江苏",
 			"name": "许宜臻",
+			"city": "南京",
 			"college": "南京大学"
 		},
 		{
-			"city": "广州",
 			"province": "广东",
 			"name": "严梓夫",
+			"city": "广州",
 			"college": "华南理工大学"
 		},
 		{
-			"city": "北京",
 			"province": "北京",
 			"name": "杨松涛",
+			"city": "北京",
 			"college": "中国石油大学"
 		},
 		{
-			"city": "亚特兰大",
 			"province": "美国",
 			"name": "方德治",
+			"city": "亚特兰大",
 			"college": "佐治亚理工学院"
 		},
 		{
-			"city": "波士顿",
 			"province": "美国",
 			"name": "吕梦帆",
+			"city": "波士顿",
 			"college": "布兰迪斯大学"
 		}
 	]
@@ -22244,7 +22255,7 @@
 	
 	
 	// module
-	exports.push([module.id, "html, body {\n    height: 100%;\n}\n\nbody {\n    background-color: #000000;\n    margin: 0;\n    font-family: Helvetica, sans-serif;\n    overflow: hidden;\n}\n\na {\n    color: #ffffff;\n}\n\n#info {\n    position: absolute;\n    width: 100%;\n    color: #ffffff;\n    padding: 5px;\n    font-family: Monospace;\n    font-size: 13px;\n    font-weight: bold;\n    text-align: center;\n    z-index: 1;\n}\n\n#menu {\n    position: absolute;\n    bottom: 20px;\n    width: 100%;\n    text-align: center;\n}\n\n.element {\n    width: 120px;\n    height: 160px;\n    box-shadow: 0px 0px 12px rgba(0,255,255,0.5);\n    border: 1px solid rgba(127,255,255,0.25);\n    text-align: center;\n    cursor: default;\n}\n\n.element:hover {\n    box-shadow: 0px 0px 12px rgba(0,255,255,0.75);\n    border: 1px solid rgba(127,255,255,0.75);\n}\n\n.element .number {\n    position: absolute;\n    top: 10px;\n    right: 20px;\n    font-size: 12px;\n    color: rgba(127,255,255,0.75);\n}\n\n.element .leftnumber {\n    position: absolute;\n    top: 10px;\n    left: 20px;\n    font-size: 12px;\n    color: rgba(127,255,255,0.75);\n}\n\n.element .symbol {\n    position: absolute;\n    top: 60px;\n    left: 0px;\n    right: 0px;\n    font-size: 30px;\n    font-weight: bold;\n    color: rgba(255,255,255,0.75);\n    text-shadow: 0 0 10px rgba(0,255,255,0.95);\n}\n\n.element .details {\n    position: absolute;\n    bottom: 15px;\n    left: 0px;\n    right: 0px;\n    font-size: 12px;\n    color: rgba(127,255,255,0.75);\n}\n\nbutton {\n    color: rgba(127,255,255,0.75);\n    background: transparent;\n    outline: 1px solid rgba(127,255,255,0.75);\n    border: 0px;\n    padding: 5px 10px;\n    cursor: pointer;\n}\nbutton.province {\n    display: block\n}\nbutton:hover {\n    background-color: rgba(0,255,255,0.5);\n}\nbutton:active {\n    color: #000000;\n    background-color: rgba(0,255,255,0.75);\n}\n#provinces {\n    position: absolute;\n    left: 20px;\n    bottom: 20px;\n}", ""]);
+	exports.push([module.id, "html, body {\n    height: 100%;\n}\n\nbody {\n    background-color: #000000;\n    margin: 0;\n    font-family: Helvetica, sans-serif;\n    overflow: hidden;\n}\n\na {\n    color: #ffffff;\n}\n\n#info {\n    position: absolute;\n    width: 100%;\n    color: #ffffff;\n    padding: 5px;\n    font-family: Monospace;\n    font-size: 13px;\n    font-weight: bold;\n    text-align: center;\n    z-index: 1;\n}\n\n#menu {\n    position: absolute;\n    bottom: 20px;\n    width: 100%;\n    text-align: center;\n}\n\n.element {\n    width: 120px;\n    height: 160px;\n    box-shadow: 0px 0px 12px rgba(0,255,255,0.5);\n    border: 1px solid rgba(127,255,255,0.25);\n    text-align: center;\n    cursor: default;\n}\n\n.element:hover {\n    box-shadow: 0px 0px 12px rgba(0,255,255,0.75);\n    border: 1px solid rgba(127,255,255,0.75);\n}\n\n.element .number {\n    position: absolute;\n    top: 10px;\n    right: 20px;\n    font-size: 12px;\n    color: rgba(127,255,255,0.75);\n}\n\n.element .leftnumber {\n    position: absolute;\n    top: 10px;\n    left: 20px;\n    font-size: 12px;\n    color: rgba(127,255,255,0.75);\n}\n\n.element .symbol {\n    position: absolute;\n    top: 60px;\n    left: 0px;\n    right: 0px;\n    font-size: 30px;\n    font-weight: bold;\n    color: rgba(255,255,255,0.75);\n    text-shadow: 0 0 10px rgba(0,255,255,0.95);\n}\n\n.element .details {\n    position: absolute;\n    bottom: 15px;\n    left: 0px;\n    right: 0px;\n    font-size: 12px;\n    color: rgba(127,255,255,0.75);\n}\n\nbutton {\n    color: rgba(127,255,255,0.75);\n    background: transparent;\n    outline: 1px solid rgba(127,255,255,0.75);\n    border: 0px;\n    padding: 5px 10px;\n    cursor: pointer;\n}\nbutton.province {\n    display: block;\n    margin-top: 5px;\n}\nbutton:hover {\n    background-color: rgba(0,255,255,0.5);\n}\nbutton:active {\n    color: #000000;\n    background-color: rgba(0,255,255,0.75);\n}\n#provinces {\n    position: absolute;\n    left: 20px;\n    bottom: 20px;\n}", ""]);
 	
 	// exports
 
