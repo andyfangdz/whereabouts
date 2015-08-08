@@ -258,17 +258,10 @@ animate();
 window.render = render;
 window.animate = animate;
 
-var provinces = []
-
-console.log(students);
-
-for (var stu in students) {
-    if (provinces.indexOf(students[stu].province) == -1)
-        provinces.push(students[stu].province);
-}
+var provinces = ["美国", "香港", "河北", "广东", "福建", "湖北", "黑龙江", "江苏", "浙江", "安徽", "四川", "上海", "北京"];
 
 console.log(provinces)
-
+document.title = "全部";
 for (var pro in provinces) {
     p = provinces[pro];
     console.log(p);
@@ -277,4 +270,6 @@ for (var pro in provinces) {
 
 $('.province').click(function(){
     window.filterData("province", $(this).data('province'));
+    document.title = $(this).data('province');
+    if ($(this).data('province') == '') document.title = "全部";
 })
